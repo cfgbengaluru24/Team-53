@@ -245,6 +245,24 @@ app.post("/send",(req,res)=>{
     }
 })
 
+app.post("/addstudent",async(req,res)=>{
+    try{
+        res.json({ok:"ok"});
+    }catch(err){
+        console.log(err);
+    }
+})
+
+
+app.post("/exstudent",async(req,res)=>{
+    try{
+        res.json({ok:"ok"});
+    }catch(err){
+        console.log(err);
+    }
+})
+
+
 passport.serializeUser((user, cb) => {
     cb(null, user);
 });

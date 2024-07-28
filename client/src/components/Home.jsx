@@ -7,28 +7,28 @@ import { Link as RouterLink } from "react-router-dom";
 const Home = () => {
   const contributors = [
     {
-      name: "Contributor 1",
+      name: "Manoranjan",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8f5l8yq2MvvdIp9t88gx92Gtv_3i4tLxFcQ&s",
-      description: "Description 1",
+        "https://imgs.search.brave.com/1zP5Yzr2s1aNZ-n7yqfEfshCuJxEq0NbwWPl45IrMjs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTM4/ODQ5MDIyL3Bob3Rv/L2hhbmRzb21lLWlu/ZGlhbi1tYW4ud2Vi/cD9iPTEmcz0xNzA2/NjdhJnc9MCZrPTIw/JmM9SzNBdk5JSnha/cFVzYU9aZ0lFVlpI/XzlmTkl4RERESkVw/b3htVmhaVHhBUT0",
+      description: "donated 500 clothes",
     },
     {
-      name: "Contributor 2",
+      name: "Mohan",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8f5l8yq2MvvdIp9t88gx92Gtv_3i4tLxFcQ&s",
-      description: "Description 2",
+        "https://imgs.search.brave.com/j2J8bZZ-q1I4INbTGInmBm_pljaq1ak-HVPj4RQiQrc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA3LzM0LzE0Lzcy/LzM2MF9GXzczNDE0/NzIxNV82OWl1UWNZ/QTRINER3SGFDS3dr/ZVlDYXNkN25nNkRo/WS5qcGc",
+      description: "fed 100 people",
     },
     {
-      name: "Contributor 3",
+      name: "Ramesh",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8f5l8yq2MvvdIp9t88gx92Gtv_3i4tLxFcQ&s",
-      description: "Description 3",
+        "https://imgs.search.brave.com/8txnxN9psNHQ93jztajrQUCrjh1feWCCSpZIZ4LuxJY/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzQwLzA3LzAz/LzM2MF9GXzY0MDA3/MDM4M185TEozZVRS/U3ZPaXdLeXJtQlln/Y2poU2xja0RuTmN4/bC5qcGc",
+      description: "donated 100 clothes",
     },
     {
-      name: "Contributor 4",
+      name: "Rajeev",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8f5l8yq2MvvdIp9t88gx92Gtv_3i4tLxFcQ&s",
-      description: "Description 3",
+        "https://imgs.search.brave.com/yZJ2eqGNa7qwYtABEHH6KBAzfEfox3AIB7BLOfKqqQg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAzLzQxLzU3LzI0/LzM2MF9GXzM0MTU3/MjQzMV9EUEVibU9K/emtjR1JhR21jRUs1/dEp2c2dRRXQ5TTBU/UC5qcGc",
+      description: "donated 250 clothes",
     },
   ];
 
@@ -52,14 +52,18 @@ const Home = () => {
 
   const images = [
     "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-27.jpg?w=1024",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-29.jpeg",
     "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-27.jpg?w=1024",
-    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-27.jpg?w=1024",
-    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-27.jpg?w=1024",
-    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-27.jpg?w=1024",
-    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-27.jpg?w=1024",
-    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-27.jpg?w=1024",
-    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-27.jpg?w=1024",
-    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-27.jpg?w=1024",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-26.jpg?w=1024",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-24.jpg?w=1024",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-21.jpg?w=1024",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-20.jpg?w=1024",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-13.jpg?w=1024",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-12.jpg?w=1024",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-10.jpg?w=1024",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/nityaberia-28.jpeg",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/namkhana-18.jpeg",
+    "https://aspireandglee.com/wp-content/uploads/2021/07/namkhana-8.jpg?w=1024",
   ];
 
   return (
@@ -71,9 +75,15 @@ const Home = () => {
           alt="A&G"
           className="logo-img"
         />
-        <h1>Welcome to Our NGO</h1>
+        <h1>Welcome to </h1>
         <h1>Aspire and Glee</h1>
+        <div className="buttons">
+          <RouterLink to="/dash">
+              <button className="btn-primary mainbtn">Spread a Smile!!</button>
+          </RouterLink>
+        </div>
       </section>
+      
 
       <div className="slideshow">
         <div className="image-scroll-slideshow">
@@ -132,12 +142,12 @@ const Home = () => {
       {/* Other sections go here with respective IDs */}
 
       {/* Buttons Section */}
-      <section className="buttons">
+      {/* <section className="buttons">
         <RouterLink to="/dash">
             <button className="btn-primary mainbtn">Spread the Smile!!</button>
         </RouterLink>
         
-      </section>
+      </section> */}
 
       {/* Contributors Section */}
       <section id="contributors" className="contributors">
@@ -154,17 +164,27 @@ const Home = () => {
       </section>
 
       {/* Extra Section */}
-      <section className="extra">
-        <h2>Get to Know Us</h2>
-        <p>
-          As promised, we started off the malnutrition drive at Boso Village in
-          Hooghly, at Parul Ashram from 31st January 2021 for next 3 months. We
-          are providing daily nutrition for 35 children who are suffering from
-          acute malnutrition. Each child, everyday will be given eggs, glucose
-          biscuits, immunity health drink, sattoo to boost the nutrients in
-          their body. They will be trained with basic health, hygiene practices
-          and physical fitness.
-        </p>
+      <section id="contact-us" className="extra">
+        <h2>Contact Us</h2>
+        <form>
+          <div className="form-group">
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="contact">Contact No.:</label>
+            <input type="tel" id="contact" name="contact" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="query">Query:</label>
+            <textarea id="query" name="query" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
       </section>
 
       {/* Footer */}

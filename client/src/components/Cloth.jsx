@@ -24,7 +24,7 @@ const DonationForm = () => {
   
                 const category = response.data.category;
                 if(category != "false"){
-                    setSpecialRequests(`We currently only accept ${category}.`);
+                    setSpecialRequests(`It would be of great help if you could donate ${category}.`);
                 }
             
         }catch(err){

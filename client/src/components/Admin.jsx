@@ -11,6 +11,7 @@ function Admin(){
     const [store,setStore] = React.useState();
     const [requ,setRequ] = React.useState("");
     const [quant,setQuant] = React.useState();
+    const [username,setUsername] = React.useState("");
 
     function handleChange(e){
         const value = e.target.value;
@@ -24,10 +25,10 @@ function Admin(){
 
     function handleSubmit(e){
         e.preventDefault();
-        if(pwd === "Abc123" && selectedOption === "student"){
+        if(pwd === "Abc123" && selectedOption === "student" && username==="aspire"){
             setComp("student");
         }
-        if(pwd === "Abc123" && selectedOption === "cloth"){
+        if(pwd === "Abc123" && selectedOption === "cloth" && username==="aspire"){
             setComp("cloth");
         }else{
             setPwd("Invalid Password");
@@ -66,11 +67,15 @@ function Admin(){
         if(comp === "form"){
             return <div className="adform">
                     <form onSubmit={handleSubmit} className="adminForm">
-                        <input onChange={handleChange} type="text" placeholder="Your Admin password" value={pwd}/>
+                        <input onChange={(e)=>{
+                            const value = e.target.value;
+                            setUsername(value);
+                        }}type="text" placeholder="Enter your username" value={username}/>
+                        <input onChange={handleChange} type="password" placeholder="Your Admin password" value={pwd}/>
                         <select id="category" value={selectedOption} onChange={handleOption}>
                             <option value="">Select an option</option>
-                            <option value="student">Student</option>
-                            <option value="cloth">Cloth</option>
+                            <option value="student">CSR</option>
+                            <option value="cloth">Cloth Bank</option>
                         </select>
                         <button>Submit</button>
                     </form>

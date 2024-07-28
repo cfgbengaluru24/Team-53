@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useTranslation } from "react-i18next";
 import "../components/i18n";
+import axios from 'axios';
 
 const FormComponent = () => {
   const { t } = useTranslation();
@@ -41,14 +42,32 @@ const FormComponent = () => {
     });
   };
 
-  const handleFormSubmit = (e) => {
+  const handleFormSubmit = async(e) => {
     e.preventDefault();
-    console.log(studentDetails);
+    // console.log(studentDetails);
+    try{
+      // console.log("form submit");
+      const resp = await axios.post("http://localhost:3000/exstudent");
+      if(resp){
+        alert("Details Updated");
+      }
+    }catch(err){
+      console.log(err);
+    }
   };
 
-  const handleNewStudentFormSubmit = (e) => {
+  const handleNewStudentFormSubmit = async(e) => {
     e.preventDefault();
     console.log(newStudentDetails);
+    try{
+      // console.log("form submit");
+      const resp = await axios.post("http://localhost:3000/addstudent");
+      if(resp){
+        alert("New Student Registered");
+      }
+    }catch(err){
+      console.log(err);
+    }
   };
 
   const handleFieldChange = (e) => {

@@ -31,7 +31,7 @@ function Dashboard(){
             <button onClick={()=>{
                 setPart("children")
             }}>
-                Sponser Children
+                Chalk Slate n Rise
             </button>
             <button onClick={()=>{
                 setPart("admin")

@@ -58,12 +58,12 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="get-to-know"
+                to="contact-us"
                 smooth={true}
                 duration={500}
                 className="nav-link px-2"
               >
-                Get to Know Us
+                Contact Us
               </Link>
             </li>
           </ul>
